@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formato Restaurante</title>
+  <link rel="stylesheet" href="./css/restaurante.css">
+  <!-- MDB icon -->
+  <link rel="icon" href="./img/logo2.PNG" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <!-- Container wrapper -->
+    <div class="container-fluid ">
+      <!-- Toggle button -->
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img src="./img/logo2.PNG" height="40" alt="Restaurante Logo" loading="lazy" />
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="restaurante.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="res.html">RESTAURANTE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">MENÚ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">FORMULARIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pqrs.html">PQRS</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#" id="navbarDropdownMenuAvatar"
+            role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+            <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" height="30"
+              alt="Black and White Portrait of a Man" loading="lazy" />
+          </a>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+  <div class="titulo">
+    <h1 id="fuente">Bienvenidos a Restaurante Liz</h1>
+  </div>
+
+  <p class="fondo"><i><b> Para nosotros es de gran importancia su opinion hacerca de nuestro Restaurante.
+        Agradeceríamos rellenar todos los campos: </i /b></p>
+
+  <div class="datos_per">
+    <h2>1. Datos personales</h2>
+    <form action="" method="get">
+
+      <table>
+        <tr>
+          <td><label>Nombre: </label></td>
+          <td><input type="text" /></td>
+          <td> <label>Apellido: </label></td>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <td><label>Tipo de documneto</label></td>
+          <td><select name="" id="">
+              <option value=""> Tarjeta de Identidad</option>
+              <option value=""> Cédula de Ciudadanía</option>
+              <option value=""> Cédula de extranjería</option>
+            </select></td>
+          <td><label> Numero de documento:</label></td>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td><label> Dirrección: </label></td>
+          <td><input type="text" /></td>
+          <td><label>Teléfono: </label></td>
+          <td><input type="tel" /></td>
+        </tr>
+        <tr>
+          <td><label>Correo electrónico: </label></td>
+          <td><input type="email" /></td>
+          <td><label>Fecha de nacimiento</label></td>
+          <td><input type="date" /></td>
+        </tr>
+      </table>
+  </div>
+  <br>
+  <div class="datos_per">
+    <h2>2. Calidad del producto</h2>
+    <table>
+      <tr>
+        <td colspan="8">2.1 ¿Cómo evaluaría de forma general la calidad de los productos?</td>
+      </tr>
+
+      <tr>
+        <td>&nbsp</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>&nbsp</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+      <tr>
+        <td colspan="8">2.2 Consisdera que los productos ofertados por Restaurante Liz, se adaptan a sus necesidades?
+        </td>
+      </tr>
+
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+
+      <tr>
+        <td colspan="8">2.3 En caso de conocer nuestras intalaciones ¿qué opinión le darias?</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+
+    </table>
+
+  </div>
+  <br>
+  <!--  -->
+  <div class="datos_per">
+    <h2>3. Calidad del Servicio y Personal de trabajo</h2>
+    <table>
+      <tr>
+        <td colspan="8">3.1 Cumplimiento de los plazos de entrega acordados</td>
+      </tr>
+      <tr>
+        <td>&nbsp</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>&nbsp</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+      <tr>
+        <td colspan="8">3.2 Accesibilidad a la hora de realizar pedidos </td>
+      </tr>
+
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+
+      <tr>
+        <td colspan="8">3.3 Respuesta ante pedidos urgentes, promociones, etc.</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+      <tr>
+        <td colspan="8">3.4 ¿Cómo fue atendido por los meseros?.</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+      <tr>
+        <td colspan="8">3.5 ¿Fue el mesero amable y paciente al tomar la orden? </td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+      <tr>
+        <td colspan="8">3.6 ¿Cómo fue el tiempo de espera?.</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>3.7 ¿En cuanto tiempo llegó su orden?</td>
+        <td><br><input type="checkbox" name="" id=""> menos de 15 minutos <br>
+          <input type="checkbox" name="" id="">
+          entre 15-30 minutos <br>
+          <input type="checkbox" name="" id="">
+          entre 30 - 45 minutos <br>
+          <input type="checkbox" name="" id="">
+          más de 45 minutos <br>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <!--  -->
+  <br>
+  <div class="datos_per">
+    <h2>4. Aseo y presentacion del establecimiento</h2>
+    <table>
+      <tr>
+        <td colspan="8">4.1 Estado general </td>
+      </tr>
+      <tr>
+        <td>&nbsp</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>&nbsp</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+      <tr>
+        <td colspan="8">4.2 limpieza General </td>
+      </tr>
+
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+
+      <tr>
+        <td colspan="8">4.3 Iluminación.</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+
+      <tr>
+        <td colspan="8">4.4 Conexión Wifi .</td>
+      </tr>
+      <tr>
+        <td>Mala</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td>Excelente</td>
+      </tr>
+
+      <tr>
+        <td colspan="8">Dejanos un comentario hacerca de la calidad de Servicio de nuestro rectaurante. <i>!Recuerda es
+            muy importante tu opinion¡</i> </td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><textarea cols="90" rows="4">Escrivá un comentario...</textarea></textarea></td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <div class="datos_per">
+    <h2>5. Pensando a futuro...</h2>
+    <table>
+      <tr>
+        <td>&nbsp;</td>
+        <td>sin dudas!</td>
+        <td>Probablemente sí</td>
+        <td>lo dudo..</td>
+        <td>Decididamente no</td>
+      </tr>
+      <tr>
+        <td>Volverían al restaurante Liz?</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+      </tr>
+      <tr>
+        <td>Lo recomendarían?</td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+        <td><input type="checkbox" name="" id=""></td>
+      </tr>
+    </table>
+
+  </div>
+  <br>
+  <div class="datos_per">
+    <table>
+      <tr>
+        <td>Qué sugerencias puedes dejarnos para mejorar? <b> <i>!Recuerda es
+              muy importante tu opinion¡</i></b></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td><textarea cols="90" rows="4">Escrivá un comentario...</textarea></textarea></td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <div>
+    <button class="btn sucess">Enviar</button>
+  </div>
+  </form>
+
+  <!-- Encabezado -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023
+      <a class="text-white" href="https://mdbootstrap.com/">RestauranteLiz.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+/* seleccionar todo */
+body {
+    background-size: 100%;
+    background-image: url(https://images.pexels.com/photos/1410225/pexels-photo-1410225.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.titulo {
+    background: rgba(255, 235, 193, 0.25);
+    padding: 20px;
+
+}
+
+#fuente {
+    font-size: 75px;
+    text-align: center;
+
+}
+
+.fondo {
+    background: #A64B2A;
+    padding: 20px;
+    font-size: 20px;
+    opacity: 90%;
+}
+
+.datos_per {
+    background: rgba(231, 180, 118, 0.5);
+
+    margin: 15px;
+    padding: 20px;
+
+}
+
+.btn {
+    border: none;
+    background-color: aliceblue;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.sucess {
+    background-color: #A64B2A;
+    color: white;
+
+}
